@@ -1,0 +1,555 @@
+/* Salah Clarity — English */
+
+/* Tab bar */
+"tab.prayer_times" = "Prayers";
+"tab.qaza" = "Qaza";
+"tab.qibla" = "Qibla";
+"tab.reminders" = "Reminders";
+"tab.settings" = "Settings";
+
+/* Prayer names */
+"prayer.fajr" = "Fajr";
+"prayer.sunrise" = "Sunrise";
+"prayer.dhuhr" = "Dhuhr";
+"prayer.asr" = "Asr";
+"prayer.maghrib" = "Maghrib";
+"prayer.isha" = "Isha";
+
+/* Prayer Times screen */
+"prayer_times.next" = "Next prayer";
+"prayer_times.in" = "in %@";
+"prayer_times.location_needed" = "Allow location access to see your prayer times.";
+"prayer_times.allow_location" = "Allow location";
+"prayer_times.today" = "Today";
+
+/* Qaza */
+"qaza.title" = "Qaza Namaz";
+"qaza.remaining" = "%lld remaining";
+"qaza.streak" = "%lld day streak";
+"qaza.mark_prayed" = "Mark 1 prayed";
+"qaza.set_total" = "Set total";
+"qaza.daily_goal" = "Daily goal: %lld";
+"qaza.progress_title" = "Progress";
+"qaza.paid_back" = "%lld paid back of %lld";
+"qaza.empty_hint" = "Tap a prayer to set how many you owe, then log one each day.";
+
+/* Qibla */
+"qibla.title" = "Qibla";
+"qibla.distance" = "%@ km to Makkah";
+"qibla.calibrate" = "Move your phone in a figure-8 to calibrate the compass.";
+"qibla.location_needed" = "Location access is needed to calculate the Qibla direction.";
+
+/* Reminders */
+"reminders.title" = "Reminders";
+"reminders.morning" = "Morning azkar";
+"reminders.evening" = "Evening azkar";
+"reminders.after_prayer" = "After prayer";
+"reminders.daily_hadith" = "Hadith of the day";
+"reminders.share" = "Share";
+"reminders.copy" = "Copy";
+
+/* Settings */
+"settings.title" = "Settings";
+"settings.calc_method" = "Calculation method";
+"settings.asr_method" = "Asr method";
+"settings.asr_standard" = "Standard (Shafi)";
+"settings.asr_hanafi" = "Hanafi";
+"settings.notifications" = "Prayer notifications";
+"settings.adhan_sound" = "Adhan sound";
+"settings.silent" = "Silent";
+"settings.language" = "Language";
+"settings.tip_jar" = "Support the developer";
+"settings.tip_small" = "Small tip ($0.99)";
+"settings.tip_medium" = "Generous tip ($2.99)";
+"settings.about" = "About";
+"settings.version" = "Version";
+"settings.privacy_note" = "All your data stays on this device. No accounts, no servers.";
+"settings.tahajjud" = "Tahajjud reminder";
+"settings.tahajjud_note" = "Shows the last third of the night — the most beloved time for voluntary prayer.";
+
+/* Prayer (additional) */
+"prayer.tahajjud" = "Tahajjud";
+
+/* Test notification */
+"settings.test_notification" = "Send test notification";
+"settings.test_notification_hint" = "Fires a notification in 5 seconds with the azan sound so you can confirm permissions and audio are working.";
+"notification.test_title" = "Salah Clarity — test";
+"notification.test_body" = "If you see and hear this, notifications are working.";
+
+/* ==========================================================================
+ * Azkar — morning, evening, and post-prayer. Arabic transliteration inside
+ * each body is the actual dhikr to recite; it stays identical across all
+ * languages. Only the surrounding description is translated.
+ * ==========================================================================
+ */
+
+/* Morning azkar */
+"azkar.m01.title" = "Ayat al-Kursi";
+"azkar.m01.body"  = "Recite Ayat al-Kursi (2:255) once. Whoever recites it in the morning will be protected until the evening.";
+
+"azkar.m02.title" = "Surah al-Ikhlas (×3)";
+"azkar.m02.body"  = "Qul huwa Allahu Ahad… Recite Surah al-Ikhlas, al-Falaq, and an-Nas three times each.";
+
+"azkar.m03.title" = "Morning remembrance";
+"azkar.m03.body"  = "Asbahna wa asbahal-mulku lillah, walhamdu lillah… (We have entered the morning, and kingship belongs to Allah.)";
+
+"azkar.m04.title" = "Sayyid al-Istighfar";
+"azkar.m04.body"  = "Allahumma anta Rabbi, la ilaha illa anta, khalaqtani wa ana abduk… Whoever says this with certainty in the morning and dies that day will be among the people of Paradise.";
+
+"azkar.m05.title" = "SubhanAllahi wa bihamdih (×100)";
+"azkar.m05.body"  = "Subhan-Allahi wa bihamdih — one hundred times. No one will come with anything better except someone who said the same or more.";
+
+"azkar.m06.title" = "La ilaha illa Allah (×10)";
+"azkar.m06.body"  = "La ilaha illa Allahu wahdahu la sharika lah, lahul-mulku wa lahul-hamdu wa huwa ala kulli shay'in qadir — ten times.";
+
+"azkar.m07.title" = "Protection from every evil";
+"azkar.m07.body"  = "Bismillahil-ladhi la yadurru ma'a ismihi shay'un fil-ardi wa la fis-sama'i wa huwas-Sami'ul-Aleem — three times.";
+
+"azkar.m08.title" = "Satisfaction with Islam";
+"azkar.m08.body"  = "Raditu billahi Rabba, wa bil-islami dina, wa bi-Muhammad sallallahu alayhi wa sallam Nabiyya — three times.";
+
+"azkar.m09.title" = "Hasbi Allah (×7)";
+"azkar.m09.body"  = "Hasbi Allahu la ilaha illa huwa, alayhi tawakkaltu wa huwa Rabbul-'Arshil-'Azim — seven times.";
+
+"azkar.m10.title" = "Allahumma 'afini fi badani";
+"azkar.m10.body"  = "O Allah, grant me well-being in my body, hearing, and sight — three times.";
+
+"azkar.m11.title" = "Asbahna 'ala fitratil-Islam";
+"azkar.m11.body"  = "We have entered the morning upon the natural disposition of Islam, the word of sincerity, the religion of our Prophet ﷺ, and the faith of our father Ibrahim.";
+
+"azkar.m12.title" = "Allahumma bika asbahna";
+"azkar.m12.body"  = "O Allah, by You we have reached the morning, and by You we reach the evening; by You we live and die, and to You is the resurrection.";
+
+"azkar.m13.title" = "Seek refuge with Allah's words (×3)";
+"azkar.m13.body"  = "A'udhu bi kalimatillahit-tammat min sharri ma khalaq — three times. Whoever says it in the morning, no harm will affect him that day.";
+
+"azkar.m14.title" = "Du'a for guidance";
+"azkar.m14.body"  = "Allahumma inni as'aluka ilman nafi'an, wa rizqan tayyiban, wa 'amalan mutaqabbala.";
+
+"azkar.m15.title" = "Seeking paradise, refuge from fire";
+"azkar.m15.body"  = "Allahumma inni as'alukal-jannah, wa a'udhu bika minan-nar — three times.";
+
+"azkar.m16.title" = "Ya Hayyu ya Qayyum";
+"azkar.m16.body"  = "Ya Hayyu ya Qayyum, bi-rahmatika astaghith, aslih li sha'ni kullahu, wa la takilni ila nafsi tarfata 'ayn.";
+
+"azkar.m17.title" = "Alhamdulillah — a full morning";
+"azkar.m17.body"  = "Alhamdulillahil-ladhi 'afani fi jasadi, wa radda 'alayya ruhi, wa adhina li bi dhikrih.";
+
+"azkar.m18.title" = "Istighfar × 100";
+"azkar.m18.body"  = "Astaghfirullah — seek forgiveness one hundred times. The Prophet ﷺ did so daily.";
+
+"azkar.m19.title" = "Blessings on the Prophet ﷺ (×10)";
+"azkar.m19.body"  = "Allahumma salli wa sallim 'ala nabiyyina Muhammad — ten times. My intercession becomes incumbent for whoever does so.";
+
+/* Evening azkar */
+"azkar.e01.title" = "Ayat al-Kursi";
+"azkar.e01.body"  = "Recite Ayat al-Kursi (2:255) once in the evening for protection through the night.";
+
+"azkar.e02.title" = "Al-Ikhlas, al-Falaq, an-Nas (×3)";
+"azkar.e02.body"  = "Three recitations of each of the last three Surahs in the evening suffice you.";
+
+"azkar.e03.title" = "Amsayna wa amsal-mulku lillah";
+"azkar.e03.body"  = "We have entered the evening and the entire kingdom belongs to Allah; all praise is for Allah.";
+
+"azkar.e04.title" = "Sayyid al-Istighfar";
+"azkar.e04.body"  = "Allahumma anta Rabbi… Whoever says it with certainty in the evening and dies before morning will be of Paradise.";
+
+"azkar.e05.title" = "A'udhu bi kalimatillah (×3)";
+"azkar.e05.body"  = "A'udhu bi kalimatillahit-tammat min sharri ma khalaq — three times in the evening protects from scorpion stings that night.";
+
+"azkar.e06.title" = "La ilaha illa Allah (×10 or ×100)";
+"azkar.e06.body"  = "La ilaha illa Allahu wahdahu la sharika lah… Whoever says it 100 times in a day is as if he freed 10 slaves.";
+
+"azkar.e07.title" = "SubhanAllahi wa bihamdih (×100)";
+"azkar.e07.body"  = "Expiates sins even if they were like the foam of the sea.";
+
+"azkar.e08.title" = "Bismillah protection (×3)";
+"azkar.e08.body"  = "Bismillahil-ladhi la yadurru ma'a ismihi shay'un fil-ardi wa la fis-sama'i wa huwas-Sami'ul-Aleem.";
+
+"azkar.e09.title" = "Refuge from laziness, old age, debt";
+"azkar.e09.body"  = "Allahumma inni a'udhu bika minal-kasal, wal-harami, wal-ma'thami, wal-maghram.";
+
+"azkar.e10.title" = "Ya muqallibal-qulub";
+"azkar.e10.body"  = "O Turner of hearts, keep my heart firm upon Your religion.";
+
+"azkar.e11.title" = "Hasbi Allah (×7)";
+"azkar.e11.body"  = "Hasbi Allahu la ilaha illa huwa, alayhi tawakkaltu wa huwa Rabbul-'Arshil-'Azim — seven times.";
+
+"azkar.e12.title" = "Du'a before sleeping";
+"azkar.e12.body"  = "Bismika Allahumma amutu wa ahya. In Your name, O Allah, I die and I live.";
+
+"azkar.e13.title" = "Last two verses of al-Baqarah";
+"azkar.e13.body"  = "Whoever recites the last two verses of Surah al-Baqarah at night, they will suffice him.";
+
+"azkar.e14.title" = "Istighfar × 100";
+"azkar.e14.body"  = "Seek forgiveness one hundred times — a Prophetic daily habit.";
+
+"azkar.e15.title" = "Raditu billahi Rabba";
+"azkar.e15.body"  = "I am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad ﷺ as my Prophet — three times.";
+
+"azkar.e16.title" = "Salah on the Prophet ﷺ (×10)";
+"azkar.e16.body"  = "Ten salutations upon the Messenger ﷺ in the evening — my intercession becomes incumbent.";
+
+"azkar.e17.title" = "Surah al-Mulk";
+"azkar.e17.body"  = "Recite Surah al-Mulk at night — it will intercede for its reciter until he is forgiven.";
+
+"azkar.e18.title" = "Du'a for family well-being";
+"azkar.e18.body"  = "Allahumma ahsin aqibatana fil-umuri kulliha, wa ajirna min khizyid-dunya wa 'adhabil-akhirah.";
+
+"azkar.e19.title" = "Firm on Islam through the evening";
+"azkar.e19.body"  = "Amsayna 'ala fitratil-Islam, wa kalimatil-ikhlas, wa 'ala dini nabiyyina Muhammad ﷺ…";
+
+"azkar.e20.title" = "Peaceful heart";
+"azkar.e20.body"  = "Allahumma inni as'aluka nafsan bika mutma'innah, tu'minu biliqa'ik, wa tarda bi qadaa'ik.";
+
+/* After-prayer dhikr */
+"azkar.p01.title" = "Astaghfirullah (×3)";
+"azkar.p01.body"  = "Seek forgiveness three times, then: Allahumma anta as-Salam wa minka as-Salam, tabarakta ya Dhal-jalali wal-ikram.";
+
+"azkar.p02.title" = "La ilaha illa Allah";
+"azkar.p02.body"  = "La ilaha illa Allahu wahdahu la sharika lah, lahul-mulku wa lahul-hamd, wa huwa 'ala kulli shay'in qadir.";
+
+"azkar.p03.title" = "Allahumma la mani'a";
+"azkar.p03.body"  = "Allahumma la mani'a lima a'tayt, wa la mu'tiya lima mana't, wa la yanfa'u dhal-jaddi minka al-jadd.";
+
+"azkar.p04.title" = "Tasbih — 33/33/34";
+"azkar.p04.body"  = "Subhan-Allah (×33), Alhamdu-lillah (×33), Allahu Akbar (×33), then once: La ilaha illa Allah… His sins will be forgiven even if like the foam of the sea.";
+
+"azkar.p05.title" = "Ayat al-Kursi";
+"azkar.p05.body"  = "Whoever recites Ayat al-Kursi after every obligatory prayer — nothing stands between him and Paradise except death.";
+
+"azkar.p06.title" = "The three Quls (after Fajr & Maghrib)";
+"azkar.p06.body"  = "Recite Surah al-Ikhlas, al-Falaq, and an-Nas three times each after Fajr and Maghrib.";
+
+"azkar.p07.title" = "Help me remember You";
+"azkar.p07.body"  = "Allahumma a'inni 'ala dhikrika, wa shukrika, wa husni 'ibadatik.";
+
+"azkar.p08.title" = "Refuge from four";
+"azkar.p08.body"  = "Allahumma inni a'udhu bika min 'adhabi jahannam, wa min 'adhabil-qabr, wa min fitnatil-mahya wal-mamat, wa min fitnatil-masih ad-dajjal.";
+
+"azkar.p09.title" = "Ten declarations (after Fajr & Maghrib)";
+"azkar.p09.body"  = "La ilaha illa Allah…wa huwa 'ala kulli shay'in qadir — ten times after Fajr and Maghrib.";
+
+"azkar.p10.title" = "Du'a for beneficial knowledge (after Fajr)";
+"azkar.p10.body"  = "Allahumma inni as'aluka 'ilman nafi'a, wa rizqan tayyiba, wa 'amalan mutaqabbala.";
+
+"azkar.p11.title" = "Salah on the Prophet ﷺ";
+"azkar.p11.body"  = "Send salutations upon the Messenger ﷺ ten times after every obligatory prayer.";
+
+"azkar.p12.title" = "Du'a for guidance";
+"azkar.p12.body"  = "Allahumma inni as'alukal-huda wat-tuqa wal-'afafa wal-ghina.";
+
+"azkar.p13.title" = "Refuge from weakness";
+"azkar.p13.body"  = "Allahumma inni a'udhu bika minal-'ajzi wal-kasal, wal-jubni wal-bukhli, wa dala'id-dayni wa ghalabatir-rijal.";
+
+"azkar.p14.title" = "Steadfast heart";
+"azkar.p14.body"  = "Ya muqallibal-qulub, thabbit qalbi 'ala dinik.";
+
+"azkar.p15.title" = "Du'a for forgiveness of parents";
+"azkar.p15.body"  = "Rabbighfir li wa li walidayya wa lil-mu'minina yawma yaqumul-hisab.";
+
+/* ==========================================================================
+ * Hadiths — 100 short, widely-known narrations. Titles ≤ 5 words; bodies
+ * kept to one or two short sentences so they fit on a notification banner.
+ * ==========================================================================
+ */
+
+"hadith.h01.title" = "Intention";
+"hadith.h01.body"  = "Actions are but by intentions, and every person will have only what he intended.";
+
+"hadith.h02.title" = "The best of you";
+"hadith.h02.body"  = "The best among you are those who have the best manners and character.";
+
+"hadith.h03.title" = "Love for a brother";
+"hadith.h03.body"  = "None of you truly believes until he loves for his brother what he loves for himself.";
+
+"hadith.h04.title" = "A smile is charity";
+"hadith.h04.body"  = "Your smiling at your brother is charity (sadaqah).";
+
+"hadith.h05.title" = "Five pillars";
+"hadith.h05.body"  = "Islam is built on five: testifying that there is no god but Allah and that Muhammad is His Messenger, prayer, zakat, the pilgrimage, and the fast of Ramadan.";
+
+"hadith.h06.title" = "Allah is beautiful";
+"hadith.h06.body"  = "Indeed, Allah is beautiful and He loves beauty.";
+
+"hadith.h07.title" = "Prayer on time";
+"hadith.h07.body"  = "The most beloved deed to Allah is prayer offered at its proper time.";
+
+"hadith.h08.title" = "Mercy";
+"hadith.h08.body"  = "Those who show mercy will be shown mercy by the Most Merciful. Show mercy to those on earth, and the One above the heavens will show mercy to you.";
+
+"hadith.h09.title" = "Good speech";
+"hadith.h09.body"  = "Whoever believes in Allah and the Last Day should speak good or remain silent.";
+
+"hadith.h10.title" = "Cheerfulness";
+"hadith.h10.body"  = "Do not belittle any good deed, even meeting your brother with a cheerful face.";
+
+"hadith.h11.title" = "Two blessings";
+"hadith.h11.body"  = "Two blessings many people squander: health and free time.";
+
+"hadith.h12.title" = "Consistency";
+"hadith.h12.body"  = "The most beloved deeds to Allah are those most consistent, even if few.";
+
+"hadith.h13.title" = "Seven under the shade";
+"hadith.h13.body"  = "Seven will be under the shade of Allah on a Day when there is no shade but His — among them a youth who grew up worshipping Allah.";
+
+"hadith.h14.title" = "The believer's affair";
+"hadith.h14.body"  = "How wonderful is the affair of the believer — his matter is all good, and that is for no one except the believer.";
+
+"hadith.h15.title" = "A generous Lord";
+"hadith.h15.body"  = "Your Lord is shy and generous; when a servant raises his hands to Him, He is too shy to return them empty.";
+
+"hadith.h16.title" = "Repentance";
+"hadith.h16.body"  = "All of the children of Adam are sinners, and the best of sinners are those who repent.";
+
+"hadith.h17.title" = "Seeking knowledge";
+"hadith.h17.body"  = "Whoever travels a path seeking knowledge, Allah will make easy for him a path to Paradise.";
+
+"hadith.h18.title" = "Guarantee of Paradise";
+"hadith.h18.body"  = "Whoever guarantees me what is between his jaws and what is between his legs, I guarantee him Paradise.";
+
+"hadith.h19.title" = "Look at those below";
+"hadith.h19.body"  = "Look at those below you in worldly matters, and look at those above you in matters of religion — this is more fitting so you do not belittle Allah's favor.";
+
+"hadith.h20.title" = "The neighbor";
+"hadith.h20.body"  = "Jibril kept exhorting me about the neighbor until I thought he would make him an heir.";
+
+"hadith.h21.title" = "Modesty";
+"hadith.h21.body"  = "Modesty (haya) brings nothing but good.";
+
+"hadith.h22.title" = "Restrain the tongue";
+"hadith.h22.body"  = "Shall I inform you of something that is the foundation of all that? Restrain this — and he pointed to his tongue.";
+
+"hadith.h23.title" = "Good erases bad";
+"hadith.h23.body"  = "Follow a bad deed with a good deed and it will erase it; and treat people with good character.";
+
+"hadith.h24.title" = "Dearest on the Day";
+"hadith.h24.body"  = "The dearest of you to me, and the closest in seat on the Day of Resurrection, are those best in character.";
+
+"hadith.h25.title" = "Charity does not decrease";
+"hadith.h25.body"  = "Charity does not decrease wealth; no one forgives another except that Allah increases him in honor.";
+
+"hadith.h26.title" = "The strong one";
+"hadith.h26.body"  = "The strong is not the one who overcomes people in wrestling; the strong is the one who controls himself in anger.";
+
+"hadith.h27.title" = "The two cool prayers";
+"hadith.h27.body"  = "Whoever prays the two cool prayers — Fajr and Asr — will enter Paradise.";
+
+"hadith.h28.title" = "The Muslim";
+"hadith.h28.body"  = "The Muslim is the one from whose tongue and hand the Muslims are safe.";
+
+"hadith.h29.title" = "Relieve a believer";
+"hadith.h29.body"  = "Whoever relieves a believer of a distress in this world, Allah will relieve him of a distress on the Day of Resurrection.";
+
+"hadith.h30.title" = "Love of the Prophet ﷺ";
+"hadith.h30.body"  = "None of you truly believes until I am more beloved to him than his father, his child, and all people.";
+
+"hadith.h31.title" = "Purity is half of faith";
+"hadith.h31.body"  = "Purity (tahara) is half of faith, and alhamdulillah fills the scales.";
+
+"hadith.h32.title" = "Du'a is worship";
+"hadith.h32.body"  = "Du'a is the very essence of worship.";
+
+"hadith.h33.title" = "Sincerely asking martyrdom";
+"hadith.h33.body"  = "Whoever sincerely asks Allah for martyrdom — Allah will grant him the status of a martyr, even if he dies in his bed.";
+
+"hadith.h34.title" = "Allah rejoices at repentance";
+"hadith.h34.body"  = "Allah is more pleased with the repentance of His servant than one of you who finds his lost camel in the desert.";
+
+"hadith.h35.title" = "Beware of backbiting";
+"hadith.h35.body"  = "Do you know what backbiting is? To mention your brother with what he would dislike — if it is in him, you have slandered him; if not, you have lied about him.";
+
+"hadith.h36.title" = "Raising the hands";
+"hadith.h36.body"  = "Your Lord does not disappoint the one who raises his hands in du'a, returning them empty.";
+
+"hadith.h37.title" = "An obligation";
+"hadith.h37.body"  = "Seeking knowledge is an obligation upon every Muslim.";
+
+"hadith.h38.title" = "Deeds by their endings";
+"hadith.h38.body"  = "Deeds are by their final endings.";
+
+"hadith.h39.title" = "Two light on the tongue";
+"hadith.h39.body"  = "Two phrases light on the tongue, heavy on the scales, beloved to the Most Merciful: SubhanAllahi wa bihamdih, SubhanAllahil-Azeem.";
+
+"hadith.h40.title" = "Tasbih fills the scale";
+"hadith.h40.body"  = "Whoever says SubhanAllahi wa bihamdih a hundred times a day, his sins will be forgiven even if they were like the foam of the sea.";
+
+"hadith.h41.title" = "Bismillah";
+"hadith.h41.body"  = "Every important matter that is not begun with the name of Allah is cut off from blessing.";
+
+"hadith.h42.title" = "Leave what doubts you";
+"hadith.h42.body"  = "Leave what makes you doubt for what does not make you doubt.";
+
+"hadith.h43.title" = "The poor enter first";
+"hadith.h43.body"  = "The poor among the believers will enter Paradise five hundred years before the rich.";
+
+"hadith.h44.title" = "Patience is light";
+"hadith.h44.body"  = "Patience is light. Prayer is light. The Qur'an is a proof for you or against you.";
+
+"hadith.h45.title" = "Jealousy consumes good";
+"hadith.h45.body"  = "Beware of jealousy, for it consumes good deeds as fire consumes wood.";
+
+"hadith.h46.title" = "Relieve your brother";
+"hadith.h46.body"  = "Whoever relieves a Muslim of a worldly hardship — Allah will relieve him of a hardship on the Day of Judgment.";
+
+"hadith.h47.title" = "Upper and lower hand";
+"hadith.h47.body"  = "The upper hand is better than the lower hand — the one that gives is better than the one that receives.";
+
+"hadith.h48.title" = "A concern for others";
+"hadith.h48.body"  = "None of you truly believes until he loves for his brother what he loves for himself.";
+
+"hadith.h49.title" = "Three that remain";
+"hadith.h49.body"  = "When a person dies, his deeds end except three: ongoing charity, knowledge that is benefited from, and a righteous child who prays for him.";
+
+"hadith.h50.title" = "Best charity in Ramadan";
+"hadith.h50.body"  = "The best charity is the charity given in Ramadan.";
+
+"hadith.h51.title" = "Night of Qadr";
+"hadith.h51.body"  = "Whoever stands in prayer on the Night of Qadr with faith and hoping for reward — his past sins will be forgiven.";
+
+"hadith.h52.title" = "The most beneficial";
+"hadith.h52.body"  = "The best of people are those who are most beneficial to people.";
+
+"hadith.h53.title" = "Allah loves gentleness";
+"hadith.h53.body"  = "Allah is gentle and loves gentleness, and grants through gentleness what He does not grant through harshness.";
+
+"hadith.h54.title" = "Honor the neighbor";
+"hadith.h54.body"  = "Whoever believes in Allah and the Last Day — let him honor his neighbor.";
+
+"hadith.h55.title" = "Leaving lying";
+"hadith.h55.body"  = "I guarantee a home in the outskirts of Paradise for whoever leaves lying — even in jest.";
+
+"hadith.h56.title" = "A good word";
+"hadith.h56.body"  = "A good word is charity.";
+
+"hadith.h57.title" = "Remove harm from the road";
+"hadith.h57.body"  = "Faith has seventy-some branches — the highest is the declaration of faith, and the lowest is removing harm from the road.";
+
+"hadith.h58.title" = "Truthfulness";
+"hadith.h58.body"  = "Truthfulness leads to righteousness, and righteousness leads to Paradise.";
+
+"hadith.h59.title" = "Last verses of al-Kahf";
+"hadith.h59.body"  = "Whoever memorizes the last ten verses of Surah al-Kahf will be protected from the Dajjal.";
+
+"hadith.h60.title" = "Those gentle with others";
+"hadith.h60.body"  = "Those who deal gently — gentleness adorns nothing without beautifying it, and is stripped from nothing without disgracing it.";
+
+"hadith.h61.title" = "The believers are one body";
+"hadith.h61.body"  = "The believers in their mutual love are like a single body — when one part aches, the whole body responds with fever and sleeplessness.";
+
+"hadith.h62.title" = "Truthfulness is a path";
+"hadith.h62.body"  = "A person keeps being truthful until he is recorded with Allah as a truthful one.";
+
+"hadith.h63.title" = "Secret charity";
+"hadith.h63.body"  = "Among the seven under Allah's shade is one who gave charity so secretly his left hand did not know what his right had given.";
+
+"hadith.h64.title" = "Break fast on a date";
+"hadith.h64.body"  = "When one of you breaks his fast, let him break it with a date — and if he does not find one, then with water, for it is purifying.";
+
+"hadith.h65.title" = "Fasting intercedes";
+"hadith.h65.body"  = "Fasting and the Qur'an will intercede for the servant on the Day of Resurrection.";
+
+"hadith.h66.title" = "Fast with faith";
+"hadith.h66.body"  = "Whoever fasts Ramadan with faith and hoping for reward — his past sins will be forgiven.";
+
+"hadith.h67.title" = "Three unrefused du'as";
+"hadith.h67.body"  = "Three du'as are not refused: the du'a of the fasting person, the oppressed, and the traveler.";
+
+"hadith.h68.title" = "A piece of flesh";
+"hadith.h68.body"  = "Indeed, in the body is a piece of flesh — if it is sound, the whole body is sound; if it is corrupt, the whole body is corrupt. It is the heart.";
+
+"hadith.h69.title" = "He looks at your hearts";
+"hadith.h69.body"  = "Allah does not look at your forms or your wealth, but He looks at your hearts and your deeds.";
+
+"hadith.h70.title" = "Fajr and Allah's pledge";
+"hadith.h70.body"  = "Whoever prays Fajr is under Allah's protection.";
+
+"hadith.h71.title" = "A prison for the believer";
+"hadith.h71.body"  = "The world is a prison for the believer and a paradise for the disbeliever.";
+
+"hadith.h72.title" = "Enough of a sin";
+"hadith.h72.body"  = "It is enough sin for a person to neglect those he is responsible for.";
+
+"hadith.h73.title" = "The seven destroyers";
+"hadith.h73.body"  = "Avoid the seven destroyers: shirk, magic, taking a life unjustly, consuming interest, devouring the orphan's wealth, fleeing the battle, and slandering chaste believing women.";
+
+"hadith.h74.title" = "Righteousness is good character";
+"hadith.h74.body"  = "Righteousness is good character; sin is what wavers in your heart and you dislike for people to find out.";
+
+"hadith.h75.title" = "Friends who remind you";
+"hadith.h75.body"  = "The best companions with Allah are those most helpful to their companions; the best neighbors are those most helpful to their neighbors.";
+
+"hadith.h76.title" = "Twelve rakats a day";
+"hadith.h76.body"  = "Whoever prays twelve voluntary rakats in a day and night — a house in Paradise will be built for him.";
+
+"hadith.h77.title" = "Allah descends";
+"hadith.h77.body"  = "In the last third of the night our Lord descends and says: Who is calling on Me that I may answer him? Who is asking of Me that I may give him? Who is seeking My forgiveness that I may forgive him?";
+
+"hadith.h78.title" = "Ghusl on Friday";
+"hadith.h78.body"  = "Ghusl on the day of Jumu'ah is an obligation upon every adult.";
+
+"hadith.h79.title" = "Charity of every joint";
+"hadith.h79.body"  = "Every morning, every joint in a person owes charity — and two rakats of Duha prayer suffice for all of that.";
+
+"hadith.h80.title" = "Religion is sincerity";
+"hadith.h80.body"  = "Religion is sincerity — to Allah, to His Book, to His Messenger, and to the leaders and the common folk of the Muslims.";
+
+"hadith.h81.title" = "Treat people well";
+"hadith.h81.body"  = "Fear Allah wherever you are; follow a bad deed with a good one and it will erase it; and treat people with good character.";
+
+"hadith.h82.title" = "Anger is from Shaytan";
+"hadith.h82.body"  = "Anger is from Shaytan. When one of you becomes angry while standing, let him sit; if it leaves, otherwise let him lie down.";
+
+"hadith.h83.title" = "A good word is charity";
+"hadith.h83.body"  = "Guard yourself from the Fire, even with half a date; if you cannot find one, then with a good word.";
+
+"hadith.h84.title" = "Read while cheerful";
+"hadith.h84.body"  = "Read the Qur'an as long as your hearts are in agreement; when you differ, stand up and leave it.";
+
+"hadith.h85.title" = "Ask forgiveness, repent";
+"hadith.h85.body"  = "By Allah, I seek Allah's forgiveness and repent to Him more than seventy times a day.";
+
+"hadith.h86.title" = "La ilaha illa Allah × 100";
+"hadith.h86.body"  = "Whoever says La ilaha illa Allahu wahdahu la sharika lah… a hundred times a day, it is equal to freeing ten slaves and a hundred good deeds are written for him.";
+
+"hadith.h87.title" = "Intercession on the Day";
+"hadith.h87.body"  = "Every Prophet has a du'a that is answered. I have kept mine as intercession for my Ummah on the Day of Resurrection.";
+
+"hadith.h88.title" = "Hardship erases sins";
+"hadith.h88.body"  = "No tiredness, illness, sorrow, or harm afflicts a Muslim — even a thorn that pricks him — except that Allah expiates some of his sins by it.";
+
+"hadith.h89.title" = "Consistency in sunnah";
+"hadith.h89.body"  = "Whoever is regular in twelve sunnah rakats daily — a house is built for him in Paradise.";
+
+"hadith.h90.title" = "The best du'a";
+"hadith.h90.body"  = "The best du'a: 'Our Lord, give us good in this world and good in the Hereafter, and protect us from the punishment of the Fire.'";
+
+"hadith.h91.title" = "His character was the Qur'an";
+"hadith.h91.body"  = "The character of the Messenger of Allah ﷺ was the Qur'an.";
+
+"hadith.h92.title" = "Zakat purifies wealth";
+"hadith.h92.body"  = "Zakat is the bridge of Islam; it purifies wealth and pleases the Most Merciful.";
+
+"hadith.h93.title" = "Never refused anyone";
+"hadith.h93.body"  = "The Messenger of Allah ﷺ was never asked for anything to which he said no.";
+
+"hadith.h94.title" = "Remember death";
+"hadith.h94.body"  = "Remember often the destroyer of pleasures — death.";
+
+"hadith.h95.title" = "Generosity is near";
+"hadith.h95.body"  = "The generous person is close to Allah, close to the people, close to Paradise, and far from the Fire.";
+
+"hadith.h96.title" = "Honoring the mother";
+"hadith.h96.body"  = "'O Messenger of Allah, who deserves my best companionship?' He said: 'Your mother.' 'Then who?' He said: 'Your mother.' 'Then who?' He said: 'Your mother.' 'Then who?' He said: 'Your father.'";
+
+"hadith.h97.title" = "A speck of pride";
+"hadith.h97.body"  = "No one who has a mustard seed's weight of pride in his heart will enter Paradise.";
+
+"hadith.h98.title" = "Best to your family";
+"hadith.h98.body"  = "The best of you is the one who is best to his family — and I am the best of you to my family.";
+
+"hadith.h99.title" = "A Muslim is sacred";
+"hadith.h99.body"  = "Every Muslim is sacred to another Muslim: his blood, his wealth, and his honor.";
+
+"hadith.h100.title" = "Guard Allah";
+"hadith.h100.body"  = "Guard Allah and He will guard you. Guard Allah and you will find Him before you. When you ask, ask Allah; when you seek help, seek help from Allah.";

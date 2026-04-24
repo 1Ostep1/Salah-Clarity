@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Sample Info.plist keys. Copy these into your target's Info tab in Xcode. -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Used to calculate accurate prayer times and Qibla direction for your location. Your location never leaves your device.</string>
+
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Used to calculate accurate prayer times and Qibla direction for your location. Your location never leaves your device.</string>
+
+    <key>NSMotionUsageDescription</key>
+    <string>Used by the Qibla compass to determine which direction your device is pointing.</string>
+
+    <key>UIBackgroundModes</key>
+    <array>
+        <string>fetch</string>
+    </array>
+
+    <key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>ru</string>
+        <string>ky</string>
+    </array>
+
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+</dict>
+</plist>
